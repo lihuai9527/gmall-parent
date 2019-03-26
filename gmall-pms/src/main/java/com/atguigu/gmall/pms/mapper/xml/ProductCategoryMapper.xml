@@ -43,4 +43,11 @@
         scale * from `pms_product_category` where parent_id = #{id}
     </select>
 
+    <!--void updateCountById(Long id);-->
+    <update id="updateCountById">
+        update pms_product_category set product_count=product_count+1
+        where id = #{id}
+
+    </update>
+
 </mapper>

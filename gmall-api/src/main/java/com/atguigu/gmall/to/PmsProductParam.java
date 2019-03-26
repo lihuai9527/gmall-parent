@@ -1,4 +1,4 @@
-package com.atguigu.gmall.admin.pms.vo;
+package com.atguigu.gmall.to;
 
 import com.atguigu.gmall.cms.entity.PrefrenceAreaProductRelation;
 import com.atguigu.gmall.cms.entity.SubjectProductRelation;
